@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/function/name.js":
+/*!******************************!*\
+  !*** ./src/function/name.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (name) {\r\n    return`Hello ${name}`;\r\n});\r\n\n\n//# sourceURL=webpack:///./src/function/name.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -94,7 +106,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module './name'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\nconst myName = !(function webpackMissingModule() { var e = new Error(\"Cannot find module './name'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()) (\"Gleb\");\r\nconsole.log(myName);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./function/name */ \"./src/function/name.js\");\n\r\n\r\nconst myName = Object(_function_name__WEBPACK_IMPORTED_MODULE_0__[\"default\"]) (\"Anya\");\r\nconsole.log(myName);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
